@@ -1,0 +1,37 @@
+body {
+  background-image: url("/R_MEMORIAS/img/fondo9.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+
+
+h4 {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+.form-register {
+  width: 800px;
+  background: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: auto;
+  border-radius: 4px;
+  font-family: "calibri";
+  color: white;
+
+}
+
+@media print {
+
+  /* Oculta el pie de página con la URL */
+  .page-url::after {
+    content: none !important;
+  }
+}

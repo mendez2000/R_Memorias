@@ -1,0 +1,107 @@
+body {
+    background-image: url("/R_MEMORIAS/img/bg01.png");
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+.container {
+    max-width: 820px;
+    margin: auto;
+    background: #24303c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.form-header h4 {
+    font-size: 24px;
+    margin: 0;
+    background: #24303c;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.form-group {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #24303c;
+}
+
+.form-group label {
+    font-size: 18px;
+    color: #fff;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: black color;
+
+}
+
+.select-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: black color;
+}
+
+.btn-submit {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #24303c;
+}
+
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+
+
+}
+
+/* Estilo para la caja de texto de observaciones */
+textarea.controls {
+    width: 100%;
+    /* Ajusta al 100% del ancho de su celda */
+    height: 150px;
+    /* Ajusta la altura deseada (puedes cambiar este valor) */
+}

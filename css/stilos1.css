@@ -1,0 +1,62 @@
+.container {
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ce2626;
+    border-radius: 10prgb(180, 31, 31) background-color: #b41919;
+    /* Color de fondo blanco hueso claro */
+    box-shadow: 0 0 10px rgba(238, 232, 232, 0.1);
+    /* Sombra suave */
+    margin: 0 auto;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.form-control,
+.select-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a51d1d;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ac1a1a;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-submit {
+    background-color: #1a6abe;
+    color: #c01313;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+
+#autoResize {
+    height: auto;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+th {
+    background-color: #343a40;
+    color: whitesmoke;
+}
+
+
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+
+td,
+th {
+
+    text-align: auto;
+    padding: 2px;
+}

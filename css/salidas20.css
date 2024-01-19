@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/R_MEMORIAS/img/bg01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: 100vh;
+    min-height: 100vh;
+    overflow: 100vh;
+    display: left;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    background: #24303c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-header h4 {
+    font-size: 24px;
+    margin: 0;
+    background: #24303c;
+}
+
+.form-group {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background: #24303c;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    font-size: 15px;
+    color: #fff;
+    display: inline-block;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.form-control {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    text-align: start;
+    white-space: normal;
+    /* Permitir salto de línea */
+}
+
+.btn-submit {
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background: #24303c;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form-group input[type="text"],
+.form-group select,
+.form-group input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+
+
+/* Estilo para la tabla de detalles */
+#detallesContainer {
+    flex: 1;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.detalleTabla {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    box-shadow: none;
+    /* Elimina la sombra */
+}
+
+.detalleEncabezado th {
+    text-align: center;
+    color: #fff;
+    border: 1px solid #555;
+    /* Cambia el color del contorno */
+    padding: 8px;
+    /* Ajusta el padding para reducir el tamaño del contorno */
+}
+
+.detalleFila td {
+    text-align: center;
+    border: 1px solid #555;
+    /* Cambia el color del contorno */
+    padding: 8px;
+    /* Ajusta el padding para reducir el tamaño del contorno */
+}
+
+.detalleFila input {
+    width: 100%;
+    padding: 6px;
+    /* Ajusta el padding para reducir el tamaño del contorno */
+    border: none;
+    border-radius: 4px;
+}
+
+.detalleFila button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    /* Ajusta el padding para reducir el tamaño del contorno */
+}
+
+.detalleFila button:hover {
+    background-color: #c0392b;
+}
+
+
+.btn-editar {
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btn-custom {
+    background-color: green;
+}

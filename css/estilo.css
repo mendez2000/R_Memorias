@@ -1,0 +1,94 @@
+body {
+  background-image: url("/R_MEMORIAS/img/fondo9.jpg");
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+table td {
+  transition: all 0.5s;
+}
+
+.tabla_datos {
+  border-collapse: collapse;
+  font-size: 14px;
+  min-width: 537px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: rgb(201, 203, 211);
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.tabla_datos th,
+.tabla_datos td {
+  border: 1px solid #e1edff;
+  padding: 7px 17px;
+}
+
+.tabla_datos caption {
+  margin: 7px;
+}
+
+#titulo {
+  background-color: #508abb;
+  color: #ffffff;
+  border-color: #6ea1cc !important;
+  text-transform: uppercase;
+}
+
+.tabla_datos tbody td {
+  color: #e1edff;
+}
+
+.tabla_datos tbody td:first-child,
+.tabla_datos tbody td:nth-child(4),
+.tabla_datos tbody td:last-child {
+  text-align: right;
+}
+
+.tabla_datos tbody tr:nth-child(odd) td {
+  background-color: #f4fbff;
+}
+
+.tabla_datos tbody tr:hover td {
+  background-color: #ffffa2;
+  border-color: #ffff0f;
+}
+
+.tabla_datos tfoot th {
+  background-color: #e5f5ff;
+  text-align: right;
+}
+
+.tabla_datos tfoot th:first-child {
+  text-align: left;
+}
+
+.tabla_datos tbody td:empty {
+  background-color: #ffcccc;
+}
+
+table {
+  margin: auto;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";
+  font-size: 12px;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid rgb(95, 50, 50);
+}

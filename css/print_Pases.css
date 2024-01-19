@@ -1,0 +1,49 @@
+@page {
+    size: landscape;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.centered-row th {
+    text-align: center;
+}
+/* Estilos específicos para la impresión */
+table {
+    page-break-inside: auto;
+}
+
+tr {
+    page-break-inside: avoid;
+    page-break-after: auto;
+}
+
+th,
+td {
+    font-size: 14px;
+    /* Tamaño de fuente ajustado para la impresión */
+    padding: 1px;
+    /* Ajusta el espacio interno de celda */
+}
+
+/* Ajustar el alto de las filas de detalles */
+tbody tr {
+    height: 20px;
+    /* Ajusta el alto según tus necesidades */
+}
+
+h3 {
+    font-size: 16px;
+    /* Tamaño de fuente ajustado para la impresión */
+    margin-bottom: 2px;
+    /* Ajusta el margen inferior */
+}

@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+    /* Color de fondo */
+    margin: 0;
+    /* Eliminar márgenes */
+    padding: 0;
+    /* Eliminar espacios internos */
+}
+
+/* Contenedor principal */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Contenido */
+.content {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px solid #007bff;
+    /* Borde */
+    border-radius: 10px;
+    background-color: #fff;
+    /* Fondo blanco */
+    max-width: 100%;
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #007bff;
+    /* Color de título */
+}
+
+/* Estilo para los campos de texto */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #007bff;
+    /* Línea inferior */
+}
+
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Estilo para el botón de firma */
+.signature-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Imagen de fondo */
+.watermark {
+    max-width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 0.2;
+    /* Opacidad para marca de agua */
+}
+
+/* Imagen en la esquina superior derecha */
+.corner-image {
+    max-width: 150px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
